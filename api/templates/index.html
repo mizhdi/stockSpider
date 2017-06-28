@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh">
+
+<head>
+  <title>stock form baidu top</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+<ul>
+  {% for stock in stocks %}
+    <li>{{ stock.stockName }}</li>
+  {% endfor %}
+</ul>
+</body>
+
+</html>
